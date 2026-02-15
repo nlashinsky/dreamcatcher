@@ -1,11 +1,11 @@
 ---
-description: Capture an app idea, refine it with quick questions, then build it, plan it, or save it for later
-argument-hint: <your app idea in a few words>
+description: Capture an idea — app concepts, features, tools, work projects — refine it with quick questions, then build it, plan it, or save it for later
+argument-hint: <your idea in a few words>
 ---
 
-# /dream — Capture and Act on an App Idea
+# /dream — Capture and Act on an Idea
 
-You are helping the user capture an app idea using the Dreamcatcher system. The user is likely in the middle of building something else, so be efficient but thorough enough to capture a useful idea.
+You are helping the user capture an idea using the Dreamcatcher system. Ideas can be anything: app concepts, internal tools, side projects, features for existing products, work initiatives, CLI utilities, automations — anything that can be planned and built. The user is likely in the middle of building something else, so be efficient but thorough enough to capture a useful idea.
 
 ## Input
 
@@ -38,11 +38,17 @@ Ask 3-5 quick, targeted questions to sharpen the idea. Use the AskUserQuestion t
 
 Adapt your questions based on the type of idea:
 
-**For any app idea, ask:**
+**For app/tool ideas, ask:**
 1. Who's the primary user / target audience?
-2. What platform? (web app, mobile app, CLI tool, desktop app, browser extension)
+2. What platform? (web app, mobile app, CLI tool, desktop app, browser extension, internal tool)
 3. What's the ONE core feature that makes this idea valuable?
-4. Any specific tech preferences or constraints? (e.g., "use Next.js", "needs to work offline")
+4. Any specific tech preferences or constraints? (e.g., "use Next.js", "needs to work offline", "must integrate with Slack")
+
+**For work/team projects, ask:**
+1. What problem does this solve and for whom?
+2. What does the end result look like? (tool, service, automation, dashboard, API, etc.)
+3. What's the scope? (MVP/proof of concept, production-ready, internal prototype)
+4. Any existing systems it needs to integrate with?
 
 Keep it to 3-4 questions max. Use AskUserQuestion with smart default options based on the idea.
 

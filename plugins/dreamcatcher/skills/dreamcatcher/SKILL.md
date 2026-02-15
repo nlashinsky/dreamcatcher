@@ -1,17 +1,17 @@
 ---
 name: dreamcatcher
-description: This skill should be used when the user mentions "dreamcatcher", "my ideas", "idea backlog", "app ideas", "captured ideas", says "I have an idea", "what if there was an app", or asks about their idea pipeline. Provides awareness of the Dreamcatcher idea capture and build system.
+description: This skill should be used when the user mentions "dreamcatcher", "my ideas", "idea backlog", "app ideas", "project ideas", "captured ideas", says "I have an idea", "what if we built", "what if there was", or asks about their idea pipeline. Provides awareness of the Dreamcatcher idea capture and build system.
 ---
 
 # Dreamcatcher — Idea Capture & Build System
 
-Dreamcatcher is a plugin for capturing app ideas on the fly and turning them into plans or built projects.
+Dreamcatcher is a plugin for capturing ideas on the fly — app concepts, internal tools, side projects, work initiatives, features, automations — and turning them into plans or built projects.
 
 ## Available Commands
 
 | Command | Purpose | Example |
 |---------|---------|---------|
-| `/dream` | Capture a new idea (refine + choose action) | `/dream recipe sharing app with ratings` |
+| `/dream` | Capture a new idea (refine + choose action) | `/dream internal dashboard for tracking team velocity` |
 | `/dreams` | Browse your idea vault | `/dreams` or `/dreams planned` |
 | `/dream-plan` | Generate/view a detailed plan | `/dream-plan 3` |
 | `/dream-build` | Build a project from an idea | `/dream-build 3` |
@@ -23,7 +23,7 @@ Ideas are stored globally at `~/.dreamcatcher/ideas/` as individual JSON files. 
 
 ## When Users Mention Ideas Casually
 
-If the user describes an app concept or says something like "I have an idea" or "what if there was an app that...", suggest capturing it:
+If the user describes a concept or says something like "I have an idea", "what if we built...", "we should make a tool that...", or "it would be cool if...", suggest capturing it:
 
 > That sounds like a great idea to capture! Run `/dream <brief description>` to save it to your vault.
 

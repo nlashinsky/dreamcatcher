@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dreamcatcher",
+  "description": "Idea capture and autonomous build system for Claude Code",
+  "owner": {
+    "name": "Nick Lashinsky",
+    "email": "nlashinsky@users.noreply.github.com"
+  },
+  "plugins": [
+    {
+      "name": "dreamcatcher",
+      "description": "Capture ideas on the fly — refine them with Socratic questions, then build autonomously, generate detailed plans, or save for later",
+      "author": {
+        "name": "Nick Lashinsky"
+      },
+      "source": "./plugins/dreamcatcher",
+      "category": "productivity",
+      "homepage": "https://github.com/nlashinsky/dreamcatcher"
+    }
+  ]
+}

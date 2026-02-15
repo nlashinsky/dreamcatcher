@@ -1,14 +1,6 @@
 # Dreamcatcher
 
-A Claude Code plugin for capturing app ideas on the fly and turning them into plans or built projects.
-
-## Plugin Structure
-
-This is a Claude Code plugin. To use it:
-
-```bash
-claude --plugin-dir /Users/nicklashinsky/dev/AI-playground/dreamcatcher
-```
+A Claude Code plugin for capturing ideas on the fly — app concepts, feature requests, side projects, work initiatives — and turning them into plans or built projects.
 
 ## Commands
 
@@ -30,9 +22,9 @@ All data is stored globally at `~/.dreamcatcher/`:
 
 ## Development
 
-To test changes to this plugin, run Claude Code with:
+To test changes to this plugin:
 ```bash
-claude --plugin-dir .
+claude --plugin-dir /path/to/dreamcatcher/plugins/dreamcatcher
 ```
 
-Then test with `/dream test idea for a todo app` and verify the flow works.
+Then test with `/dream internal dashboard for tracking team velocity` and verify the flow works.
