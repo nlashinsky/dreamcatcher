@@ -1,0 +1,8 @@
+{
+  "name": "dreamcatcher",
+  "version": "1.0.0",
+  "description": "Capture app ideas on the fly, refine them with Socratic questions, then build them autonomously or save for later",
+  "author": {
+    "name": "Nick Lashinsky"
+  }
+}

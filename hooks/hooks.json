@@ -1,0 +1,15 @@
+{
+  "description": "Dreamcatcher session hooks - shows idea backlog summary on session start",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/hooks-handlers/session-start.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
